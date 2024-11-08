@@ -60,12 +60,12 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('/space.JPG');
+const spaceTexture = new THREE.TextureLoader().load('/space.jpg');
 scene.background = spaceTexture;
 
 // Avatar
 
-const jeffTexture = new THREE.TextureLoader().load('vansh.svg');
+const jeffTexture = new THREE.TextureLoader().load('/vansh.svg');
 
 const jeff = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: jeffTexture }));
 
